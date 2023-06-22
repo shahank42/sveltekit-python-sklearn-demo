@@ -21,7 +21,7 @@ In the same terminal run
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python server.py
+python backend/server.py
 ```
 
 Note: If you use the FISH shell, then the second command should be `source .venv/bin/activate.fish`
