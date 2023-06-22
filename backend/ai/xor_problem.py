@@ -3,7 +3,7 @@ import sklearn.neural_network
 import pickle
 
 
-model_file_path = "ai/xor_model"
+model_file_path = "backend/ai/xor_model"
 
 X = np.array([[0, 0],
               [0, 1],
