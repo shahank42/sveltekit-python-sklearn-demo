@@ -10,7 +10,7 @@ CORS(app)
 
 def predict_xor(val1, val2):
     X = np.array([[val1, val2]])
-    model_file_path = "ai/xor_model"
+    model_file_path = "backend/ai/xor_model"
     model = pickle.load(open(model_file_path, "rb"))
     result = model.predict(X)
     return result[0]
