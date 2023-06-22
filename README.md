@@ -9,8 +9,8 @@ It's as simple as that.
 Open a terminal and run the commands
 
 ```
-git clone 
-cd 
+git clone https://github.com/shahank42/sveltekit-python-sklearn-demo
+cd sveltekit-python-sklearn-demo
 ```
 
 ### Step 2: Initialize the backend
